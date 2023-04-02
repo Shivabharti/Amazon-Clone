@@ -1,0 +1,100 @@
+/* SECTION-1 */
+
+.product-header{
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+}
+
+.product-header .product-container{
+    margin: 20px;
+}
+
+.product-header .product-container h1{
+    font-size: 24px!important;
+    font-weight: bold;
+    color: #121212;
+
+}
+
+/* SECTION-2 */
+
+.product-details{
+    height: 700px;
+    width: 100%;
+}
+
+.product-details .product-container{
+    display: flex;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+.product-details .product-container .product-image{
+    width: 50%;
+}
+
+.product-details .product-container .product-image img{
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(50, 50, 50, 0);
+    width: 100%;
+    height: auto;
+    max-width: 550px;
+    max-height: 600px;
+}
+
+.product-details .product-container .product-detail-body{
+    width: 50%;
+}
+
+.product-details .product-container .product-detail-body .product-title{
+    font-size: 25px;
+    font-weight: 500;
+    color: #121212;
+}
+
+.product-details .product-container .product-detail-body .product-price{
+    margin-top: 10px;
+    font-size: 28px;
+    font-weight: 450;
+    color: #B12704!important;
+}
+
+.product-details .product-container .product-detail-body .product-about{
+    margin-top: 10px;
+    color: #121212;   
+}
+
+.product-details .product-container .product-detail-body .product-about h4{
+    font-size: 20px;
+    font-weight: 500;
+    color: #121212;
+}
+.product-details .product-container .product-detail-body .product-about ul{
+    padding-left: 50px;
+}
+
+.product-details .product-container .product-detail-body .buttons{
+    display: flex;
+    gap: 2px;
+    margin-top: 20px;
+}
+
+.product-details .product-container .product-detail-body .buttons .buy-now{
+    width: 50%;
+    border: none;
+    color: white;
+    background-color: #ffa41c;
+    padding: 8px;
+    border-radius: 9px;
+}
+
+.product-details .product-container .product-detail-body .buttons .add-to-cart{
+    width: 50%;
+    color: #ffa41c;
+    background-color: white;
+    border: 2px solid #ffa41c;
+    border-radius: 9px;
+    padding: 8px;
+}
